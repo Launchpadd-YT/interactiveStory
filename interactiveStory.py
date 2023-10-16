@@ -38,12 +38,69 @@ stages = {
             'u': """You were eventually, after some effort, able to get through the crevice.
             As you kept on crawling, it began to get tighter and tighter, until eventually you got stuck.
             Trying to get out got you nowhere, and you eventually suffocated.""",
-            'd': """"""
+            'd': """You put your feet into the hole and just manage to squeeze through the hole at the top.
+            As you continue deeper into the hole you start to slip down, you keep speeding up until eventually the slope levels and you come out of a hole into a much larger chamber.
+            
+            As you get up to examine the area, you see the true size of the room you just entered. There is a pool of water in the middle, which is fed by a stream of water coming out of the wall.
+            There is a platform high up against the wall, which seems to lead into a crevice. There is also a large opening directly in front of you, which seems to slope slightly down.
+            The platform could fit a human lying down, and you can see it starting to crack.
+            The large hole is very dark, but could easily fit a bus across its opening."""
         }
-    } 
+    },
+    4: {
+        'q': "Do you climb onto the platform or go into the dark opening?",
+        'r': {
+            'u': """You take grip onto the foot and handholds running up the side of the wall, and with a lot of effort you manage to pull yourself up onto the platform.
+            As you finally stand up on top of the polatform, you feel a little shift in the ground below you.
+            When you turn around, your worst nightmare comes true, as the platform comes tumbling down into the pond in the middle, pulling you along with it.""",
+            'y': """"""
+        }
+    },
+    5: {
+        'q': "",
+        'r': {
+            'x': """""",
+            'y': """"""
+        }
+    },
+    6: {
+        'q': "",
+        'r': {
+            'x': """""",
+            'y': """"""
+        }
+    },
+    7: {
+        'q': "",
+        'r': {
+            'x': """""",
+            'y': """"""
+        }
+    },
+    8: {
+        'q': "",
+        'r': {
+            'x': """""",
+            'y': """"""
+        }
+    },
+    9: {
+        'q': "",
+        'r': {
+            'x': """""",
+            'y': """"""
+        }
+    },
+    10: {
+        'q': "",
+        'r': {
+            'x': """""",
+            'y': """"""
+        }
+    },
 }
 
-correctAns = ["u", "u", "d", "d", "l", "r", "l", "r", "a", "b", "start"]
+correctAns = ["u", "u", "d", "d", "l", "r", "l", "r", "a", "b"]
 
 def questions(temp):
     print(temp)
